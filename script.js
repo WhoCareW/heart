@@ -15,10 +15,10 @@ const noTexts = [
 ];
 
 const imageList = [
-    "heart.png",          // 初始图片
-    "heart1.png",     // 第一次点击后
-    "heart2.png",     // 第二次点击后
-    "heart3.png",      // 第三次点击后
+    "h.png",          // 初始图片
+    "h1.png",     // 第一次点击后
+    "h2.png",     // 第二次点击后
+    "h3.png",      // 第三次点击后
 ];
 
 // No 按钮点击事件
@@ -78,3 +78,4 @@ yesButton.addEventListener("click", function() {
     // 可选：隐藏原有的问题文本，或也修改它
      questionText.style.display = "none";  // 如果不想显示原问题
 });
+
