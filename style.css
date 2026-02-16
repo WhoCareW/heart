@@ -22,17 +22,18 @@ body {
 }
 
 h1 {
-    font-size: 5vw; /* 字体大小根据视口宽度变化 */
+    font-size: 4vw; /* 字体大小根据视口宽度变化 */
     color: #68495b;
     margin: 20px 0; /* 增加上下间距 */
 }
 
 button {
-    font-size: 4vw; /* 字体大小根据视口宽度变化 */
+    font-size: 3vw; /* 字体大小根据视口宽度变化 */
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin: 10px;
     transition: all 0.3s ease;
+
 }
