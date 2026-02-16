@@ -58,12 +58,12 @@ yesButton.addEventListener("click", function() {
     // 或者使用 style.display = "none" 隐藏，但 remove 更彻底
 
     // 2. 更换图片
-    mainImage.src = "happy.png";  // 请替换为您准备好的开心图片文件名
+    mainImage.src = "h.png";  // 请替换为您准备好的开心图片文件名
 
     // 3. 在图片上方输出文字“好耶ヽ(✿ﾟ▽ﾟ)ノ”
     // 创建一个新元素（例如 div）
     let message = document.createElement("div");
-    message.textContent = "好耶ヽ(✿ﾟ▽ﾟ)ノ";
+    message.textContent = "好耶ヽ(✿ﾟ▽ﾟ)ノ 新年快乐！";
     message.style.fontSize = "2rem";
     message.style.marginBottom = "20px";
     message.style.color = "#ff69b4";  // 粉色，可按喜好修改
@@ -78,4 +78,5 @@ yesButton.addEventListener("click", function() {
     // 可选：隐藏原有的问题文本，或也修改它
      questionText.style.display = "none";  // 如果不想显示原问题
 });
+
 
